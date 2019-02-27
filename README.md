@@ -22,3 +22,5 @@ Train a logistic regression model predicting whether one sentence is paraphase o
 # Example usage:
 `python pi_logreg.py`
 
+## Results
+This system scores ___ 0.8402948402948403 ___ . 
