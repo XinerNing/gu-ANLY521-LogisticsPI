@@ -9,7 +9,7 @@ This project examines string similarity metrics for paraphrase identification. I
 Data is from the [STS benchmark](http://ixa2.si.ehu.es/stswiki/index.php/STSbenchmark).
 
 ## Homework: pi_logreg.py
-Train a logistic regression model predicting whether one sentence is paraphase of the other using similarity of features: "NIST", "BLEU", "Word Error Rate", "Longest common substring", "Levenshtein distance". The model is trained using train.csv, then being applied in dev.csv. A final accuracy score on dev is calculated. 
+Train a logistic regression model predicting whether one sentence is paraphase of the other using similarity of features: "NIST", "BLEU", "Word Error Rate", "Longest common substring", "Levenshtein distance". The model is trained using train.csv, then being applied in dev.csv. The script prints three things. First, length of training pairs. Second, length of dev pari. Finally, accuracy score on dev.
 
 ## Discription of each metrics used
 * NIST: a method for evaulating the quality of text which has been translated using machine translation.
